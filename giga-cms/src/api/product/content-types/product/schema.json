@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product 🖥️",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Product_name": {
+      "type": "string"
+    },
+    "Product_desc": {
+      "type": "richtext"
+    },
+    "Product_img": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Product_price": {
+      "type": "decimal"
+    },
+    "urlSlug": {
+      "type": "string"
+    }
+  }
+}

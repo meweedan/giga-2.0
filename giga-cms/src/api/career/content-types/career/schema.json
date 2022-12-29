@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "careers",
+  "info": {
+    "singularName": "career",
+    "pluralName": "careers",
+    "displayName": "Career"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Job_title": {
+      "type": "string",
+      "required": true
+    },
+    "Job_desc": {
+      "type": "richtext",
+      "required": true,
+      "maxLength": 120
+    },
+    "Job_deadline": {
+      "type": "date",
+      "required": true
+    },
+    "Department": {
+      "type": "enumeration",
+      "enum": [
+        "IT Development",
+        "Human Resources",
+        "Customer Support",
+        "Networking Operations",
+        "Installations",
+        "Executive Management"
+      ]
+    }
+  }
+}

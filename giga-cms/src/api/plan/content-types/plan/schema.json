@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "plans",
+  "info": {
+    "singularName": "plan",
+    "pluralName": "plans",
+    "displayName": "Plan 🧾",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Plan_name": {
+      "type": "string",
+      "required": true
+    },
+    "Plan_price": {
+      "type": "decimal"
+    },
+    "urlSlug": {
+      "type": "string"
+    },
+    "Plan_desc": {
+      "type": "enumeration",
+      "enum": [
+        "Download speed",
+        "Upload speed",
+        "Download quota"
+      ]
+    }
+  }
+}
