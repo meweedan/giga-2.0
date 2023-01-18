@@ -25,4 +25,11 @@ export const TRANSLATIONS_AR = {
     "our_partners": "شركاؤنا",
     "get_in_touch": "تواصل معانا",
     "so_we_can_get_you_connected!": "و استمتع باسرع نت في ليبيا!",
+    "Articles": "المقالات الاخبارية",
+    "Call_us": "اتصل بنا",
+    "Email_us": "بريدنا الالكتروني",
+    "Office_hours": "اوقات العمل",
+    "View_services": "جميع خدماتنا",
+    "Know_more": "اكتشف المزيد",
+    "Sat_Thu": "السبت - الخميس",
    };

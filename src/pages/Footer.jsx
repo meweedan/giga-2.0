@@ -1,6 +1,9 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next';
 
 export default function Footer() {
+    const { t } = useTranslation();
+
   return (
     <React.Fragment>
         <footer className="footer-section two">
@@ -33,7 +36,7 @@ export default function Footer() {
                         <div className="footer-widget">
                             <ul className="footer-contact-list" key={"contact-us"}>
                                 <li key="callus">
-                                    <span className="sub-title">Call us</span>
+                                    <span className="sub-title">{t("Call_us")}</span>
                                     <h4 className="link-title"><a href="tel:00218217200200">+218 217 200 200</a></h4>
                                 </li>
                             </ul>
@@ -43,7 +46,7 @@ export default function Footer() {
                         <div className="footer-widget">
                             <ul className="footer-contact-list" key={"contact-list"}>
                                 <li key="emailus">
-                                    <span className="sub-title">Write to Us</span>
+                                    <span className="sub-title">ِ{t("Email_us")}</span>
                                     <h4 className="link-title"><a href="mailto:support@giga.ly">support@giga.ly</a></h4>
                                 </li>
                             </ul>
@@ -53,8 +56,8 @@ export default function Footer() {
                         <div className="footer-widget">
                             <ul className="footer-contact-list" key={"office-hrs"}>
                                 <li key="officehrs">
-                                    <span className="sub-title">Office hours</span>
-                                    <h4 className="link-title">Sat - Thu <br/>09:00 - 17:00</h4>
+                                    <span className="sub-title">{t("Office_hours")}</span>
+                                    <h4 className="link-title">{t("Sat_Thu")}<br/>09:00 - 17:00</h4>
                                 </li>
                             </ul>
                         </div>
@@ -64,40 +67,14 @@ export default function Footer() {
             <div className="footer-bottom-area">
                 <div className="row mb-30-none">
                     <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
-                        <div className="footer-widget">
-                            <h5 className="title">About us</h5>
-                            <p>Giga was founded in 2011 by a group of innovation-focused individuals who wanted to uplift Libya's internet accessibility to keep up with a fastpaced world.</p>
-                            <ul className="footer-social" key={"social"}>
-                                <li key="facebook"><a href="#0"><i className="fab fa-facebook-f"></i></a></li>
-                                <li key="twitr"><a href="#0"><i className="fab fa-twitter"></i></a></li>
-                                <li key="ggl"><a href="#0"><i className="fab fa-google-plus-g"></i></a></li>
-                                <li key="insta"><a href="#0"><i className="fab fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="col-xl-2 col-lg-2 col-md-6 mb-30">
-                        <div className="footer-widget">
-                            <h4 className="title">Explore Giga</h4>
-                            <ul className="footer-list" key={"login-footer"}>
-                                <li key="acc"><a href="#0">Login</a></li>
-                                <li key="privacy"> <a href="#0">Privacy Policy</a></li>
-                                <li key="afil"><a href="#0">Affilitate</a></li>
-                                <li key="prgrm"><a href="#0">Program</a></li>
-                                <li key="prtnr"><a href="#0">Our Partner</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="col-xl-2 col-lg-2 col-md-6 mb-30">
-                        {/*  */}
-                    </div>
-                    <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
-                        <div className="footer-widget">
-                            <h5 className="title">Sign up to our newsletter</h5>
-                            <form className="footer-subscribe-form">
-                                <input type="email" className="form--control" placeholder="Enter Mail"/>
-                                <button type="submit"><i className="las la-angle-right"></i></button>
-                            </form>
-                        </div>
+                                  <div className="footer-widget">
+                                      <ul className="footer-social" key={"social"}>
+                                          <li key="facebook"><a href="#0"><i className="fab fa-facebook-f"></i></a></li>
+                                          <li key="twitr"><a href="#0"><i className="fab fa-twitter"></i></a></li>
+                                          <li key="ggl"><a href="#0"><i className="fab fa-google-plus-g"></i></a></li>
+                                          <li key="insta"><a href="#0"><i className="fab fa-instagram"></i></a></li>
+                                      </ul>
+                                  </div>
                     </div>
                 </div>
             </div>

@@ -39,7 +39,7 @@ const Navbar = () => {
                                 <li key="uniqueId5"><Link activeClass="active" to="resellers" spy={true} smooth={true} offset={-150} duration={500} onClick={closeMenu}>{t("resellers")}</Link></li>
                                 <li key="uniqueId6"><Link activeClass="active" to="article" spy={true} smooth={true} offset={-150} duration={500} onClick={closeMenu}>{t("news")}</Link></li>
                                 <li key="uniqueId7"><Link activeClass="active" to="contact" spy={true} smooth={true} offset={-150} duration={500} onClick={closeMenu}>{t("contact-us")}</Link></li>
-                                <li key="uniqueId8"><Link to="/careers">{t("careers")}</Link></li>
+                                {/* <li key="uniqueId8"><Link to="/careers">{t("careers")}</Link></li> */}
                         <p className="btn--base"><a href="https://giga.ly/portal">{t("login")}</a></p>              
                             </ul>
                         </div>
