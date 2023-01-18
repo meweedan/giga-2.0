@@ -23,4 +23,11 @@ export const TRANSLATIONS_EN = {
             "our_partners": "Our Partners",
         "get_in_touch": "Get in touch",
     "so_we_can_get_you_connected!": "and get connected to the fastest internet in Libya!",
+    "Call_us": "Call us",
+    "Email_us": "Email us",
+    "office_hours": "Working hours",
+    "View_services": "View our services",
+    "Articles": "Articles",
+    "Know_more": "Find out more",
+    "Sat_Thu": "Sat - Thu",
    };

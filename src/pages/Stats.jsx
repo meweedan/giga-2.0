@@ -21,7 +21,7 @@ export default function Stats() {
                     <h2 className="site-title">{t("stats")}</h2>
                     <p>Our motto, <i style={{color: "rgb(24,90,214)"}}>"Stay Connected"</i> includes the core values of the company and describes our philosophy. We moved heaven and earth to turn the company’s motto into a reality.</p>
                     <div className="statistics-left-btn">
-                        <a href="about.html" className="custom-btn">Know More</a>
+                        <a href="about.html" className="custom-btn">{t("Know_more")}</a>
                     </div>
                 </div>
             </div>

@@ -25,7 +25,7 @@ export default function About() {
                     <h2>{t("business_connecting")}</h2>
                     <p>{t("motto")}</p>
                     <div className="overview-btn">
-                        <a href="service.html" className="btn--base active">View All Services</a>
+                        <a href="service.html" className="btn--base active">{t("View_services")}</a>
                     </div>
                 </div>
             </div>
